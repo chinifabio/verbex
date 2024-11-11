@@ -1,0 +1,13 @@
+[package]
+name = "vebex"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+keyworks = ["regex", "verbose"]
+description = "Vebex is a Rust library that provides procedural macros for creating regular expressions in a verbose and readable way."
+homepage = "https://chinifabio.github.io"
+repository = "https://github.com/chinifabio/vebex"
+readme = "README.md"
+
+[dependencies]
+regex = "1.11.1"
