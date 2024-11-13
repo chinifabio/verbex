@@ -1,6 +1,6 @@
-# Vebex
+# Verbex
 
-Vebex is a Rust library that provides procedural macros for creating regular expressions in a verbose and readable way.
+Verbex is a Rust library that provides procedural macros for creating regular expressions in a verbose and readable way.
 
 ## Features
 
@@ -14,13 +14,13 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-vebex = "0.1.0"
+verbex = "0.1.0"
 ```
 
 ## Usage
 
 ```rust
-use vebex::regex;
+use verbex::regex;
 
 let re = regex! {
     start_of_line
